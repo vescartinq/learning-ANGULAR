@@ -5,8 +5,8 @@
 # SECCIONES / CARPETAS
 
 1. [ General info](#general-info)
-2. [ Bases Typescript](#bases-typescript)
-3. [Bases Angular](#bases-angular)
+2. [ Bases Typescript](#typescript)
+3. [Bases Angular](#angular)
 
 ---
 
@@ -18,8 +18,8 @@ Temas tratados:
 
 1. Introducción al curso
 2. Conceptos Generales
-3. Base de TypeScript -> `ts-intro`
-4. Introducción a Angular -> `01-bases`
+3. Base de TypeScript -> `00-bases-typescript`
+4. Introducción a Angular -> `01-bases-angular`
 5. Expandiendo nuestras bases
 6. Despliegues rápidos a producción
 7. GifsApp - Aplicación para buscar imágenes
