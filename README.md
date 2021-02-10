@@ -5,12 +5,12 @@
 # SECCIONES / CARPETAS
 
 1. [ General info](#general-info)
-1. [ Bases Typescript](#bases-typescript)
-1. [Bases Angular](#bases-angular)
+2. [ Bases Typescript](#bases-typescript)
+3. [Bases Angular](#bases-angular)
 
 ---
 
-## 1. General Info
+## 1. GENERAL INFO
 
 Curso orientado a aprender Angular (versión 11) a profundidad mediante ejercicios y tareas. Partiendo de cero conocimiento de TypeScript hasta crear un sistema robusto de autenticación, uso de mapas, consumo de servicios y mucho más.
 
@@ -19,7 +19,7 @@ Temas tratados:
 1. Introducción al curso
 2. Conceptos Generales
 3. Base de TypeScript -> `ts-intro`
-4. Introducción a Angular -> `01-bases
+4. Introducción a Angular -> `01-bases`
 5. Expandiendo nuestras bases
 6. Despliegues rápidos a producción
 7. GifsApp - Aplicación para buscar imágenes
@@ -42,3 +42,26 @@ Temas tratados:
 24. Auth Backend - MEAN
 25. AuthApp - MEAN
 26. Desplegar backend y frontend a producción
+
+## 2. TYPESCRIPT
+
+- Conceptos Generales
+- Interfaces
+- Clases y constructores
+- Extender una clase
+- Genéricos
+- Decoradores
+- Encadenamiento opcional
+
+## 3. ANGULAR
+
+- Angular CLI
+- Creación de proyectos
+- Componentes
+- Crear componente de forma automática
+- Modulos
+- One Data Binding
+- ngFor
+- ngIf / ngIf-else
+- Ng-Template
+- Modulos
