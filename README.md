@@ -4,4 +4,5 @@
 
 # SECCIONES / CARPETAS
 
-- Ejercicios Typescript -> `ts-intro`
+1. Bases Typescript -> `ts-intro`
+2. Bases Angular -> `01-bases`
