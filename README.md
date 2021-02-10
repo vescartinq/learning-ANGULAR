@@ -12,7 +12,7 @@
 
 ## 1. GENERAL INFO
 
-Curso orientado a aprender Angular (versión 11) a profundidad mediante ejercicios y tareas. Partiendo de cero conocimiento de TypeScript hasta crear un sistema robusto de autenticación, uso de mapas, consumo de servicios y mucho más.
+Curso orientado a aprender Angular (versión 11), y a profundidad mediante ejercicios y tareas. Partiendo de cero conocimiento de TypeScript hasta crear un sistema robusto de autenticación, uso de mapas, consumo de servicios y mucho más.
 
 Temas tratados:
 
