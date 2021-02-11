@@ -7,6 +7,7 @@
 1. [ General info](#general-info)
 2. [ Bases Typescript](#typescript)
 3. [Bases Angular](#angular)
+4. [App GifsApp](#gifsapp)
 
 ---
 
@@ -22,7 +23,7 @@ Temas tratados:
 4. Introducción a Angular -> `01-bases-angular`
 5. Expandiendo nuestras bases
 6. Despliegues rápidos a producción
-7. GifsApp - Aplicación para buscar imágenes
+7. GifsApp - Aplicación para buscar imágenes -> `02-gifsApp`
 8. SPA- PaisesApp
 9. Continuación aplicación de Paises -Sugerencias, debounce...
 10. Pipes de Angular
@@ -65,3 +66,28 @@ Temas tratados:
 - ngIf / ngIf-else
 - Ng-Template
 - Modulos
+- FormsModule
+- ngModel
+- @Input / @Output
+- Child components
+- EventEmitter
+- Depuración con VSCode
+- Servicios
+- Métodos en el servicio
+
+## 4.GIFSAPP - Aplicación para buscar imágenes
+
+- Diseño del proyecto
+- Módulo Shared
+- GifsModule
+- @ViewChild
+- GifsService
+- Control de Historial de Búsquedas
+- Giphy Api Key
+- Peticiones HTTP
+- Tipado a peticiones HTTP
+- LocalStorage
+- Carga de imagenes
+- Descarga de imagenes
+- HttpParams
+- Animate.style CSS
