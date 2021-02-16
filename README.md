@@ -5,15 +5,26 @@
 # SECCIONES / CARPETAS
 
 1. [ General info](#general-info)
-2. [ Bases Typescript](#typescript)
-3. [Bases Angular](#angular)
-4. [App GifsApp](#gifsapp)
+2. [ Videos Demo](#videos-demo)
+3. [ Temario](#temario)
+4. [ Bases Typescript](#typescript)
+5. [Bases Angular](#angular)
+6. [App GifsApp](#gifsapp)
 
 ---
 
 ## 1. GENERAL INFO
 
-Curso orientado a aprender Angular (versión 11), y a profundidad mediante ejercicios y tareas. Partiendo de cero conocimiento de TypeScript hasta crear un sistema robusto de autenticación, uso de mapas, consumo de servicios y mucho más.
+Curso orientado a aprender Angular (versión 11), y a profundidad mediante
+ejercicios y tareas. Partiendo de cero conocimiento de TypeScript hasta crear un
+sistema robusto de autenticación, uso de mapas, consumo de servicios y mucho
+más.
+
+## 2. VIDEOS DEMOSTRACION
+
+GifsApp: https://youtu.be/v0m-VVvIIlc
+
+## 3. TEMARIO
 
 Temas tratados:
 
@@ -44,7 +55,7 @@ Temas tratados:
 25. AuthApp - MEAN
 26. Desplegar backend y frontend a producción
 
-## 2. TYPESCRIPT
+## 4. TYPESCRIPT
 
 - Conceptos Generales
 - Interfaces
@@ -54,7 +65,7 @@ Temas tratados:
 - Decoradores
 - Encadenamiento opcional
 
-## 3. ANGULAR
+## 5. ANGULAR
 
 - Angular CLI
 - Creación de proyectos
@@ -75,7 +86,7 @@ Temas tratados:
 - Servicios
 - Métodos en el servicio
 
-## 4.GIFSAPP - Aplicación para buscar imágenes
+## 6.GIFSAPP - Aplicación para buscar imágenes
 
 - Diseño del proyecto
 - Módulo Shared
