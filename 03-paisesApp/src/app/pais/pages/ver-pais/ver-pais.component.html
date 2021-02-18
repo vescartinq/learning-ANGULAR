@@ -19,16 +19,16 @@
       <h3>Información</h3>
       <ul class="list-group">
         <li class="list-group-item">
-          <strong>Población</strong> {{ pais.population | number }}
+          <strong>Población: </strong> {{ pais.population | number }}
         </li>
         <li class="list-group-item">
-          <strong>Código Numérico</strong> {{ pais.numericCode }}
+          <strong>Capital: </strong> {{ pais.capital }}
         </li>
         <li class="list-group-item">
-          <strong>Código Numérico</strong> {{ pais.numericCode }}
+          <strong>Código Numérico: </strong> {{ pais.numericCode }}
         </li>
         <li class="list-group-item">
-          <strong>Código alpha3</strong> {{ pais.alpha3Code }}
+          <strong>Código alpha3: </strong> {{ pais.alpha3Code }}
         </li>
       </ul>
     </div>
@@ -36,23 +36,21 @@
 
   <h3 class="mt-5">Traducciones</h3>
 
-  <div class="row mt-3">
-    <div class="col">
-      <span class="badge bg-primary m-1">{{ pais.translations.de }}</span>
-      <span class="badge bg-primary m-1">{{ pais.translations.es }}</span>
-      <span class="badge bg-primary m-1">{{ pais.translations.fr }}</span>
-      <span class="badge bg-primary m-1">{{ pais.translations.ja }}</span>
-      <span class="badge bg-primary m-1">{{ pais.translations.it }}</span>
-      <span class="badge bg-primary m-1">{{ pais.translations.br }}</span>
-      <span class="badge bg-primary m-1">{{ pais.translations.pt }}</span>
-      <span class="badge bg-primary m-1">{{ pais.translations.nl }}</span>
-      <span class="badge bg-primary m-1">{{ pais.translations.hr }}</span>
-      <span class="badge bg-primary m-1">{{ pais.translations.fa }}</span>
-    </div>
-  </div>
+  <ul class="row mt-3">
+    <li><b>Alemán</b> : {{ pais.translations.de }}</li>
+    <li><b>Español</b>: {{ pais.translations.es }}</li>
+    <li><b>Francés</b>: {{ pais.translations.fr }}</li>
+    <li><b>Japonés</b>: {{ pais.translations.ja }}</li>
+    <li><b>Italiano</b>: {{ pais.translations.it }}</li>
+    <li><b>Portugués</b>: {{ pais.translations.pt }}</li>
+    <li><b>Holandés</b>: {{ pais.translations.nl }}</li>
+    <li><b>Esloveno</b>: {{ pais.translations.hr }}</li>
+    <li><b>Persa</b>: {{ pais.translations.fa }}</li>
+  </ul>
 
+  <!-- 
   <h3 class="mt-5">País info:</h3>
   <pre class="mt-2">
       {{ pais | json }}
-  </pre>
+  </pre> -->
 </ng-template>
