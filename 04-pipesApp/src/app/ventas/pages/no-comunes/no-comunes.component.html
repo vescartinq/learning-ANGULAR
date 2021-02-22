@@ -7,14 +7,30 @@
 <!-- https://primefaces.org/primeng/showcase/#/fieldset -->
 <div class="p-grid">
   <div class="p-col p-md-6 p-sm-9">
+    <!-- https://angular.io/api/common/I18nSelectPipe -->
     <p-fieldset legend="i18nSelectPipe" [toggleable]="true">
-      Content
+      Saludos {{ nombre1 }}, es un placer
+      {{ genero1 | i18nSelect: invitacionMap }} a nuestro evento
+      <br />
+      Saludos {{ nombre2 }}, es un placer
+      {{ genero2 | i18nSelect: invitacionMap }} a nuestro evento
     </p-fieldset>
   </div>
 
+  <!-- https://angular.io/api/common/I18nPluralPipe -->
   <div class="p-col p-md-6 p-sm-9">
     <p-fieldset legend="i18nPluralPipe" [toggleable]="true">
-      Content
+      Actualmente
+      {{ clientes0.length | i18nPlural: clientesMap }}
+      <br />
+      Actualmente
+      {{ clientes1.length | i18nPlural: clientesMap }}
+      <br />
+      Actualmente
+      {{ clientes2.length | i18nPlural: clientesMap }}
+      <br />
+      Actualmente
+      {{ clientes5.length | i18nPlural: clientesMap }}
     </p-fieldset>
   </div>
 </div>
