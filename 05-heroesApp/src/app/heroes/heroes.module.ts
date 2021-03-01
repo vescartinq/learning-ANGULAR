@@ -20,13 +20,13 @@ import { ConfirmarComponent } from './components/confirmar/confirmar.component';
     // components
     AgregarComponent,
     BuscarComponent,
+    ConfirmarComponent,
     HeroeComponent,
+    HeroeTarjetaComponentComponent,
     HomeComponent,
     ListadoComponent,
-    HeroeTarjetaComponentComponent,
     // pipes
     ImagenPipe,
-    ConfirmarComponent,
   ],
   imports: [
     CommonModule,
